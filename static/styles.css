@@ -12,10 +12,16 @@ body {
     margin: 0 auto;
     padding: 20px;
 }
+/* Estilos para el título */
+.ai-title {
+    color: #0dcaf0; /* Color azul claro para "AI" */
+}
 
+.industrial-title {
+    color: #2471a3; /* Color azul oscuro para "Industrial APP" */
+}
 h1 {
     font-weight: bold;
-    color: #bb86fc; /* Color morado claro para el título */
     text-align: center;
     margin-bottom: 20px;
     font-size: 32px; /* Tamaño de fuente más grande */
@@ -54,7 +60,7 @@ h1 {
 
 /* Formulario */
 form {
-    background-color: #1e1e1e; /* Fondo oscuro para el formulario */
+    background-color: #515a5a; /* Fondo oscuro para el formulario */
     padding: 20px;
     border-radius: 12px; /* Bordes más redondeados */
     border: 1px solid #333333; /* Borde gris oscuro */
@@ -63,7 +69,7 @@ form {
 
 .form-label {
     font-weight: bold;
-    color: #bb86fc; /* Color morado claro para las etiquetas */
+    color: #ffffff; /* Color morado claro para las etiquetas */
     font-size: 16px;
 }
 
@@ -85,7 +91,7 @@ form {
 
 /* Botón */
 .btn-primary {
-    background-color: #bb86fc; /* Color morado claro para el botón */
+    background-color: #2471a3; /* Color morado claro para el botón */
     border: none;
     padding: 12px;
     font-size: 16px;
