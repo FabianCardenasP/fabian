@@ -1,0 +1,125 @@
+/* Estilos generales */
+body {
+    background-color: #121212; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Limitar el ancho del contenido */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #bb86fc; /* Color morado claro para el título */
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px; /* Tamaño de fuente más grande */
+}
+
+/* Selector de variable */
+.form-select {
+    background-color: #1e1e1e; /* Fondo oscuro para el selector */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #333333; /* Borde gris oscuro */
+    border-radius: 8px; /* Bordes más redondeados */
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-select:focus {
+    border-color: #bb86fc; /* Borde morado al enfocar */
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.5); /* Sombra morada más pronunciada */
+}
+
+/* Imagen de referencia */
+.img-fluid {
+    border-radius: 12px; /* Bordes más redondeados */
+    border: 2px solid #333333; /* Borde gris oscuro */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.02); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Formulario */
+form {
+    background-color: #1e1e1e; /* Fondo oscuro para el formulario */
+    padding: 20px;
+    border-radius: 12px; /* Bordes más redondeados */
+    border: 1px solid #333333; /* Borde gris oscuro */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #bb86fc; /* Color morado claro para las etiquetas */
+    font-size: 16px;
+}
+
+.form-control {
+    background-color: #2d2d2d; /* Fondo oscuro para los inputs */
+    color: #ffffff; /* Texto blanco */
+    border: 1px solid #333333; /* Borde gris oscuro */
+    border-radius: 8px; /* Bordes más redondeados */
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #bb86fc; /* Borde morado al enfocar */
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.5); /* Sombra morada más pronunciada */
+}
+
+/* Botón */
+.btn-primary {
+    background-color: #bb86fc; /* Color morado claro para el botón */
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px; /* Bordes más redondeados */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #9a67ea; /* Color morado más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+/* Ajustes para dispositivos móviles */
+@media (max-width: 767.98px) {
+    h1 {
+        font-size: 24px; /* Tamaño de fuente más pequeño para el título */
+    }
+
+    .form-label {
+        font-size: 14px; /* Tamaño de fuente más pequeño para las etiquetas */
+    }
+
+    .form-control {
+        font-size: 14px; /* Tamaño de fuente más pequeño para los inputs */
+        padding: 10px; /* Padding más pequeño para los inputs */
+    }
+
+    .btn-primary {
+        font-size: 16px; /* Tamaño de fuente para el botón */
+        padding: 10px; /* Padding para el botón */
+    }
+
+    .img-fluid {
+        max-height: 200px; /* Altura máxima más pequeña para la imagen */
+    }
+}
